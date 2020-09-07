@@ -1,0 +1,13 @@
+# botones
+---
+## borrador
+## color lapiz
+## color fondo
+## tamaño +
+## tamaño -
+***
+# ui cel
+---
+***
+# distribucion de usuarios
+---

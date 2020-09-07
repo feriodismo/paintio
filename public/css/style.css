@@ -1,0 +1,60 @@
+*{
+	-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;"
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    font-family: 'Inconsolata', monospace;
+}
+p{
+    margin:3px;
+}
+#color-ipt {
+	right: 0;
+    float: right;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+}
+
+.icondiv {
+	z-index:3;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    margin-right: 4.5%;
+    top: 39%;
+}
+
+.icondiv>* {
+    display: block !important;
+}
+
+.icondiv>*:hover {
+    cursor: pointer;
+}
+
+.icondiv #slider {
+    display: none !important;
+}
+
+.icondiv>i {
+    font-size: 32px;
+    margin: 43% 0 43% 0;
+}
+
+#picker {
+    font-size: 24px;
+    color: white;
+}
+
+canvas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+i {
+	text-shadow: 2px 3px 4px #00000021;
+}

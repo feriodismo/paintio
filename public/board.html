@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta charset="utf-8">
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="icondiv">
+        <label for='color-ipt' id='picker'><i class="fas fa-eye-dropper" aria-hidden="true" style="color:#6ba292"></i></label>
+        <i class="fas fa-eraser" onclick="penEraser()" style="color:#FFD35C"></i>
+        <i class="material-icons" onclick="deleteAll()" style="color:#dd614a">delete</i>
+        <i class="material-icons" onclick="sizePen()"  style="color:#ff9b71">edit</i>
+        <input id="slider" type="range" onchange="penValue(this)">
+    </div>
+    <input id='color-ipt' type='color' oninput="cambiarcolor()">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js" integrity="sha512-rMaqGbYalDaQz0lWNF2L8DHPtf4NW+gSZomExS0LcsNyRS4Rmj21+dt97XfXCZE/E569eX72Bh//Jt1EpStgiA==" crossorigin="anonymous"></script>
+    <script src="../js/normalito.js"></script>
+    <script src="../js/canvas.js"></script>
+</body>
+
+</html>
