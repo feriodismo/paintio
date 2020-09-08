@@ -8,6 +8,54 @@ body{
 p{
     margin:3px;
 }
+
+.app{
+    width:95vw;
+    height:95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room-ipt-ct{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room-ind-dsc{
+    width: 150px;
+    height: 100%;
+    background: #4db99a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
+.room-btn-ct{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#room-ind-btn{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 12px;
+}
+#room-ind-ipt{
+    width: 140px;
+    height: 25px;
+    border:none;
+    border:1px solid #4db99a;
+    padding-left: 10px;
+}
 #color-ipt {
 	right: 0;
     float: right;

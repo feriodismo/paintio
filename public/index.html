@@ -6,17 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
-    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <title>paintio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js" integrity="sha512-v8ng/uGxkge3d1IJuEo6dJP8JViyvms0cly9pnbfRxT6/31c3dRWxIiwGnMSWwZjHKOuY3EVmijs7k1jz/9bLA==" crossorigin="anonymous"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
 </head>
-<body>
-    <p>bienvenidos a la pizarra!</p>
-    <p>landing en construccion, colocar el nombre del cuarto en la url</p>
-    <p>por ejemplo: http://paintio.herokuapp.com/nombredelcuarto, gracias!</p>
+<body class='b-ind'>
+    <div class=app>
+        <div class=app-ctn>
+            <div class='room-ipt-ct'><div class='room-ind-dsc'>NOMBRE DE LA SALA</div><input id='room-ind-ipt' oninput='roomName(this);' type='text'></div>
+            <div class='room-btn-ct'><input type='button' title='3-15 char not white spaces' value='ENTRAR' onclick='roomlink()' id='room-ind-btn'></div>
+        </div>
+        
+    </div>
+    <script src="../js/ind.js"></script>
+
 </body>
 
 </html>
